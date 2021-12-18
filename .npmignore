@@ -1,0 +1,4 @@
+.github
+tsconfig.json
+objectToWrapper.ts
+*.test.*
