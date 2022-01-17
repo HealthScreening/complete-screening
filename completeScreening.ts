@@ -58,13 +58,9 @@ export default async function completeScreening(
         Floor: null,
         Answer1: 0,
         Answer2: 0,
+        Answer3: 0,
     };
-    if (options.isVaxxed) {
-        obj.Answer3 = 0;
-        obj.Answer4 = 0;
-    } else {
-        obj.Answer3 = 1;
-    }
+    // We do not use the vaccinated option as of right now
     const response = await axios.post(
         "https://healthscreening.schools.nyc/home/submit",
         new URLSearchParams(objectToWrapper(obj)).toString(),

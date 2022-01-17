@@ -1,6 +1,6 @@
 {
   "name": "@healthscreening/complete-screening",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Completes the New York City Department of Education Health Screening on Guest Mode.",
   "main": "completeScreening.js",
   "types": "completeScreening.d.ts",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/HealthScreening/complete-screening#readme",
   "dependencies": {
-    "@healthscreening/object-to-wrapper": "^1.0.0",
+    "@healthscreening/object-to-wrapper": "^2.0.0",
     "axios": "^0.24.0",
     "@healthscreening/screening-types": "^1.0.0"
   },
