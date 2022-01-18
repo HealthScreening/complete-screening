@@ -8,9 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/HealthScreening/complete-screening.git"
   },
-  "engines": {
-    "node": ">=8.X.X"
-  },
   "author": "PythonCoderAS <sarkaraoyan@gmail.com>",
   "license": "GNU General Public License v3.0",
   "bugs": {
