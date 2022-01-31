@@ -36,6 +36,7 @@ export interface SubmitParams {
     State: string;
     Location: string;
     Floor: string | null;
+    PrequestionAnswer: 0 | 1;
     Answer1: 0 | 1;
     Answer2: 0 | 1;
     Answer3?: 0 | 1;
@@ -56,6 +57,7 @@ export default async function completeScreening(
         State: "NY",
         Location: "X445",
         Floor: null,
+        PrequestionAnswer: 0,
         Answer1: 0,
         Answer2: 0,
         Answer3: 0,
