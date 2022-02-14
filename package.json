@@ -1,6 +1,6 @@
 {
   "name": "@healthscreening/complete-screening",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Completes the New York City Department of Education Health Screening on Guest Mode.",
   "main": "completeScreening.js",
   "types": "completeScreening.d.ts",
