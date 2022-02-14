@@ -16,7 +16,7 @@
   "homepage": "https://github.com/HealthScreening/complete-screening#readme",
   "dependencies": {
     "@healthscreening/object-to-wrapper": "^2.0.0",
-    "axios": "^0.25.0",
+    "axios": "^0.26.0",
     "@healthscreening/screening-types": "^1.0.0"
   },
   "devDependencies": {
